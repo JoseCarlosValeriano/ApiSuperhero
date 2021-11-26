@@ -9,19 +9,12 @@
     android:paddingRight="16dp"
     >
 
-    <EditText
-        android:id="@+id/searchbox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="What are you looking for?"
-        />
-
     <TextView
         android:id="@+id/url_display"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="GitHub URL HERE"
+        android:text="URL HERE"
         android:textSize="22sp"
         />
 
@@ -37,7 +30,5 @@
             android:textSize="18sp"/>
 
     </ScrollView>
-
-
 
 </LinearLayout>
